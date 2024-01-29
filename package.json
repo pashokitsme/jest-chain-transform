@@ -7,7 +7,7 @@
   "scripts": {
     "test": "srcipt/test.sh",
     "build": "tsc",
-    "postinstall": "npm run build"
+    "postinstall": "tsc"
   },
   "repository": {
     "type": "git",
