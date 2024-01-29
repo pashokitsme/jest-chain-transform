@@ -6,8 +6,7 @@
   "typings": "./lib/index.d.ts",
   "scripts": {
     "test": "srcipt/test.sh",
-    "build": "tsc",
-    "postinstall": "tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
