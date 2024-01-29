@@ -6,7 +6,8 @@
   "typings": "./lib/index.d.ts",
   "scripts": {
     "test": "srcipt/test.sh",
-    "build": "tsc"
+    "build": "tsc",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
