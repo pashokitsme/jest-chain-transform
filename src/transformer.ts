@@ -111,7 +111,7 @@ const createTransformer = (): Transformer<Config> => {
       sourceText: string,
       sourcePath: string,
       options: TransformOptions<Config>
-    ): string => {
+    ) => {
       const transformers = getFlattenTransformers(options);
 
       return transformers.reduce(
